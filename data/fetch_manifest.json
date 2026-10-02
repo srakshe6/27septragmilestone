@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-10-02T18:49:20+00:00",
+  "results": [
+    {
+      "source_id": "groww-large-cap",
+      "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "status": 200,
+      "ok": true,
+      "bytes": 454987,
+      "sha256": "375bafbf30adf304878e118ff412154b7e58fdb860e684dc1689bf1d3e37281b",
+      "fetched_at": "2026-10-02T18:10:24+00:00",
+      "cache_path": "C:\\Users\\USer\\RAG\\RAGproject\\data\\raw\\hdfc-large-cap-fund-direct-growth.eb012e88a1ea9416.html",
+      "from_cache": true,
+      "error": null
+    },
+    {
+      "source_id": "groww-flexi-cap",
+      "url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+      "status": 200,
+      "ok": true,
+      "bytes": 495139,
+      "sha256": "127d99347f19b03ca0b6d9d0e490486c9a777c2f1bf5d6a9995db068a3632b82",
+      "fetched_at": "2026-10-02T18:10:25+00:00",
+      "cache_path": "C:\\Users\\USer\\RAG\\RAGproject\\data\\raw\\hdfc-equity-fund-direct-growth.2582725fc091dfbc.html",
+      "from_cache": true,
+      "error": null
+    },
+    {
+      "source_id": "groww-elss",
+      "url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "status": 200,
+      "ok": true,
+      "bytes": 453668,
+      "sha256": "984df25693de9d43a48e19cdc7dc09a32314ad5a1138e451718a739f4bb91cf7",
+      "fetched_at": "2026-10-02T18:10:25+00:00",
+      "cache_path": "C:\\Users\\USer\\RAG\\RAGproject\\data\\raw\\hdfc-elss-tax-saver-fund-direct-plan-growth.b5ddfac419d1bd80.html",
+      "from_cache": true,
+      "error": null
+    },
+    {
+      "source_id": "groww-small-cap",
+      "url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+      "status": 200,
+      "ok": true,
+      "bytes": 497977,
+      "sha256": "1bd31234d16b7283344907c593dd7154bfd066846ea047aa93132a8953cb8e58",
+      "fetched_at": "2026-10-02T18:10:26+00:00",
+      "cache_path": "C:\\Users\\USer\\RAG\\RAGproject\\data\\raw\\hdfc-small-cap-fund-direct-growth.2a23a64db5bae7f1.html",
+      "from_cache": true,
+      "error": null
+    },
+    {
+      "source_id": "groww-balanced-advantage",
+      "url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth",
+      "status": 200,
+      "ok": true,
+      "bytes": 816747,
+      "sha256": "2ff7a171ad36cdf98897aa5853af038a2bc7e958f119bddb01d2e04b590b7b04",
+      "fetched_at": "2026-10-02T18:10:27+00:00",
+      "cache_path": "C:\\Users\\USer\\RAG\\RAGproject\\data\\raw\\hdfc-balanced-advantage-fund-direct-growth.7ecfb1e9a25f7f3c.html",
+      "from_cache": true,
+      "error": null
+    },
+    {
+      "source_id": "hdfc-investor-portal",
+      "url": "https://investor.hdfcfund.com/",
+      "status": 0,
+      "ok": false,
+      "bytes": 0,
+      "sha256": "",
+      "fetched_at": "2026-10-02T18:49:19+00:00",
+      "cache_path": "C:\\Users\\USer\\RAG\\RAGproject\\data\\raw\\investor.hdfcfund.com.3973c3462012b425.html",
+      "from_cache": false,
+      "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "source_id": "cams-statements",
+      "url": "https://www.camsonline.com/Service/Request",
+      "status": 200,
+      "ok": true,
+      "bytes": 11733,
+      "sha256": "ecd85a4cbe5414565035d1c7aff6ddc35fd487af2b9c5ed074138ae5802e60e4",
+      "fetched_at": "2026-10-02T18:10:28+00:00",
+      "cache_path": "C:\\Users\\USer\\RAG\\RAGproject\\data\\raw\\Request.a0cadd43983c10c5.html",
+      "from_cache": true,
+      "error": null
+    },
+    {
+      "source_id": "hdfc-official-scheme-docs",
+      "url": "https://www.hdfcmf.com/mutual-funds/equity/hdfc-large-cap-fund",
+      "status": 200,
+      "ok": true,
+      "bytes": 27766,
+      "sha256": "ad6a14a9cf3213c2815f6024cc392e1a37007f7de18c50c1996fae6a1abfc11b",
+      "fetched_at": "2026-09-27T11:39:00+00:00",
+      "cache_path": "C:\\Users\\USer\\RAG\\RAGproject\\data\\raw\\hdfc-large-cap-fund.68621cd7229bfc16.html",
+      "from_cache": true,
+      "error": null
+    },
+    {
+      "source_id": "amfi-nav",
+      "url": "https://portal.amfiindia.com/spages/NAVAll.txt",
+      "status": 200,
+      "ok": true,
+      "bytes": 1519830,
+      "sha256": "04710f015695f729d38fce586d73a627d6e1ab91504f585b998767ea43f08c47",
+      "fetched_at": "2026-10-02T18:10:38+00:00",
+      "cache_path": "C:\\Users\\USer\\RAG\\RAGproject\\data\\raw\\NAVAll.txt.57b989fdfee7c9a0.html",
+      "from_cache": true,
+      "error": null
+    }
+  ]
+}

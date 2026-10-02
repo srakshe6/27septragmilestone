@@ -1,0 +1,189 @@
+{
+  "metrics": {
+    "n_queries": 14,
+    "ks": [
+      1,
+      3,
+      5,
+      10
+    ],
+    "mrr": 1.0,
+    "top1_accuracy": 1.0,
+    "ndcg": 0.9717,
+    "mean_returned": 10.0,
+    "recall@1": 1.0,
+    "precision@1": 1.0,
+    "recall@3": 1.0,
+    "precision@3": 0.4762,
+    "recall@5": 1.0,
+    "precision@5": 0.3286,
+    "recall@10": 1.0,
+    "precision@10": 0.1714
+  },
+  "rows": [
+    {
+      "q": "What is the expense ratio of HDFC Large Cap Fund?",
+      "expect_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "ranks": [
+        1
+      ],
+      "n_relevant_hits": 1,
+      "n_returned": 10,
+      "top1_relevant": true,
+      "ndcg": 1.0
+    },
+    {
+      "q": "expense ratio of HDFC Flexi Cap Fund",
+      "expect_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+      "ranks": [
+        1
+      ],
+      "n_relevant_hits": 1,
+      "n_returned": 10,
+      "top1_relevant": true,
+      "ndcg": 1.0
+    },
+    {
+      "q": "What is the minimum SIP for HDFC Small Cap Fund?",
+      "expect_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+      "ranks": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        10
+      ],
+      "n_relevant_hits": 6,
+      "n_returned": 10,
+      "top1_relevant": true,
+      "ndcg": 0.895
+    },
+    {
+      "q": "What is the minimum SIP amount for HDFC ELSS Tax Saver Fund?",
+      "expect_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "ranks": [
+        1,
+        2,
+        5,
+        8
+      ],
+      "n_relevant_hits": 4,
+      "n_returned": 10,
+      "top1_relevant": true,
+      "ndcg": 0.876
+    },
+    {
+      "q": "Is there a lock-in period in HDFC ELSS Tax Saver Fund?",
+      "expect_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "ranks": [
+        1
+      ],
+      "n_relevant_hits": 1,
+      "n_returned": 10,
+      "top1_relevant": true,
+      "ndcg": 1.0
+    },
+    {
+      "q": "What is the exit load on HDFC Balanced Advantage Fund?",
+      "expect_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth",
+      "ranks": [
+        1
+      ],
+      "n_relevant_hits": 1,
+      "n_returned": 10,
+      "top1_relevant": true,
+      "ndcg": 1.0
+    },
+    {
+      "q": "What is the exit load of HDFC Small Cap Fund?",
+      "expect_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+      "ranks": [
+        1,
+        2
+      ],
+      "n_relevant_hits": 2,
+      "n_returned": 10,
+      "top1_relevant": true,
+      "ndcg": 1.0
+    },
+    {
+      "q": "What benchmark does HDFC Large Cap Fund use?",
+      "expect_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "ranks": [
+        1
+      ],
+      "n_relevant_hits": 1,
+      "n_returned": 10,
+      "top1_relevant": true,
+      "ndcg": 1.0
+    },
+    {
+      "q": "What is the benchmark of HDFC Balanced Advantage Fund?",
+      "expect_url": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth",
+      "ranks": [
+        1
+      ],
+      "n_relevant_hits": 1,
+      "n_returned": 10,
+      "top1_relevant": true,
+      "ndcg": 1.0
+    },
+    {
+      "q": "What is the NAV of HDFC Flexi Cap Fund?",
+      "expect_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+      "ranks": [
+        1
+      ],
+      "n_relevant_hits": 1,
+      "n_returned": 10,
+      "top1_relevant": true,
+      "ndcg": 1.0
+    },
+    {
+      "q": "How do I download a capital gains statement?",
+      "expect_url": "https://www.camsonline.com/Service/Request",
+      "ranks": [
+        1
+      ],
+      "n_relevant_hits": 1,
+      "n_returned": 10,
+      "top1_relevant": true,
+      "ndcg": 1.0
+    },
+    {
+      "q": "Where can I download my account statement?",
+      "expect_url": "https://investor.hdfcfund.com/",
+      "ranks": [
+        1,
+        4
+      ],
+      "n_relevant_hits": 2,
+      "n_returned": 10,
+      "top1_relevant": true,
+      "ndcg": 0.8333
+    },
+    {
+      "q": "What is the riskometer level of HDFC Small Cap Fund?",
+      "expect_url": "https://www.hdfcmf.com/mutual-funds/equity/hdfc-large-cap-fund",
+      "ranks": [
+        1
+      ],
+      "n_relevant_hits": 1,
+      "n_returned": 10,
+      "top1_relevant": true,
+      "ndcg": 1.0
+    },
+    {
+      "q": "What is the fund size of HDFC Large Cap Fund?",
+      "expect_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "ranks": [
+        1
+      ],
+      "n_relevant_hits": 1,
+      "n_returned": 10,
+      "top1_relevant": true,
+      "ndcg": 1.0
+    }
+  ]
+}

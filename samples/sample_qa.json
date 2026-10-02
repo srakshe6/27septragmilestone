@@ -1,0 +1,148 @@
+{
+  "index_built_at": "2026-10-02T18:14:40+00:00",
+  "disclaimer": "Facts-only. No investment advice.",
+  "samples": [
+    {
+      "query": "What is the expense ratio of HDFC Large Cap Fund?",
+      "intent_note": "Cost figure, large cap",
+      "kind": "answer",
+      "answer": "The expense ratio of HDFC Large Cap Fund (Direct - Growth) is 1.04%.",
+      "citation": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "citation_title": "HDFC Large Cap Fund Direct Growth - scheme overview",
+      "last_updated_from_sources": "2026-10-01",
+      "disclaimer": "Facts-only. No investment advice.",
+      "sentence_count": 1,
+      "guards_passed": [
+        "G2_citation_ok"
+      ]
+    },
+    {
+      "query": "minimum SIP for HDFC ELSS Tax Saver Fund",
+      "intent_note": "Minimum investment, terse phrasing with no question mark",
+      "kind": "answer",
+      "answer": "The minimum SIP amount for HDFC ELSS Tax Saver Fund (Direct Plan - Growth) is ₹500 per month.",
+      "citation": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "citation_title": "HDFC ELSS Tax Saver Fund Direct Plan Growth - scheme overview",
+      "last_updated_from_sources": "2026-10-01",
+      "disclaimer": "Facts-only. No investment advice.",
+      "sentence_count": 1,
+      "guards_passed": [
+        "G2_citation_ok"
+      ]
+    },
+    {
+      "query": "Is there a lock-in period in HDFC ELSS Tax Saver Fund?",
+      "intent_note": "Statutory lock-in",
+      "kind": "answer",
+      "answer": "The lock-in period for HDFC ELSS Tax Saver Fund (Direct Plan - Growth) is 3 years. Units cannot be redeemed before the lock-in period ends.",
+      "citation": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "citation_title": "HDFC ELSS Tax Saver Fund Direct Plan Growth - scheme overview",
+      "last_updated_from_sources": "2026-10-01",
+      "disclaimer": "Facts-only. No investment advice.",
+      "sentence_count": 2,
+      "guards_passed": [
+        "G2_citation_ok"
+      ]
+    },
+    {
+      "query": "What is the exit load on HDFC Balanced Advantage Fund?",
+      "intent_note": "Non-standard exit-load wording (excess-units rule)",
+      "kind": "answer",
+      "answer": "The exit load of HDFC Balanced Advantage Fund (Direct - Growth) is 1% for units in excess of 15% of the investment, if redeemed within 1 year.",
+      "citation": "https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth",
+      "citation_title": "HDFC Balanced Advantage Fund Direct Growth - scheme overview",
+      "last_updated_from_sources": "2026-10-01",
+      "disclaimer": "Facts-only. No investment advice.",
+      "sentence_count": 1,
+      "guards_passed": [
+        "G2_citation_ok"
+      ]
+    },
+    {
+      "query": "benchmark of HDFC Flexi Cap Fund",
+      "intent_note": "Index benchmark, terse phrasing",
+      "kind": "answer",
+      "answer": "The benchmark of HDFC Flexi Cap Fund (Direct - Growth) is NIFTY 500 Total Return Index.",
+      "citation": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+      "citation_title": "HDFC Flexi Cap Direct Plan Growth - scheme overview",
+      "last_updated_from_sources": "2026-10-01",
+      "disclaimer": "Facts-only. No investment advice.",
+      "sentence_count": 1,
+      "guards_passed": [
+        "G2_citation_ok"
+      ]
+    },
+    {
+      "query": "What is the riskometer level of HDFC Small Cap Fund?",
+      "intent_note": "Fact not present in the quotable corpus - must point to the official factsheet",
+      "kind": "answer",
+      "answer": "That level is not in the source pages collected for this build. The SEBI riskometer level and the month-wise riskometer trend are published by the AMC in the scheme's monthly factsheet, available on the AMC's official scheme pages alongside the SID and KIM.",
+      "citation": "https://www.hdfcmf.com/mutual-funds/equity/hdfc-large-cap-fund",
+      "citation_title": "HDFC Mutual Fund - official scheme pages (SID / KIM / factsheet / exit load)",
+      "last_updated_from_sources": "2026-10-03",
+      "disclaimer": "Facts-only. No investment advice.",
+      "sentence_count": 2,
+      "guards_passed": [
+        "G2_citation_ok"
+      ]
+    },
+    {
+      "query": "How do I download a capital gains statement?",
+      "intent_note": "Procedural, routes to the RTA",
+      "kind": "answer",
+      "answer": "Download a capital gains / loss statement for your mutual fund holdings from the registrar's self-service request page, the Statements section of camsonline.com, where you choose the period, delivery option and fund houses to include. The statement is sent to the email address already registered with your folio, so no personal details need to be shared here.",
+      "citation": "https://www.camsonline.com/Service/Request",
+      "citation_title": "CAMS Online - Request a statement / capital-gains (loss) statement",
+      "last_updated_from_sources": "2026-10-03",
+      "disclaimer": "Facts-only. No investment advice.",
+      "sentence_count": 2,
+      "guards_passed": [
+        "G2_citation_ok"
+      ]
+    },
+    {
+      "query": "Where can I download my account statement?",
+      "intent_note": "Procedural, routes to the AMC investor portal (a different destination)",
+      "kind": "answer",
+      "answer": "Download a mutual fund account or transaction statement from the AMC's official investor portal, investor.hdfcfund.com, using its statement request service to choose your date range. You sign in to your own account on the portal itself, so nothing personal needs to be shared here.",
+      "citation": "https://investor.hdfcfund.com/",
+      "citation_title": "HDFC Mutual Fund - investor portal (transaction & statement requests)",
+      "last_updated_from_sources": "2026-10-03",
+      "disclaimer": "Facts-only. No investment advice.",
+      "sentence_count": 2,
+      "guards_passed": [
+        "G2_citation_ok"
+      ]
+    },
+    {
+      "query": "Should I buy HDFC Small Cap Fund?",
+      "intent_note": "Advice question - must refuse",
+      "kind": "advice_refusal",
+      "answer": "I can only share published facts about these schemes, so I can't say whether you should buy, sell or hold anything. The official scheme pages carry the factsheet, SID and KIM if you want to read the disclosures yourself.",
+      "citation": "https://www.hdfcmf.com/mutual-funds/equity/hdfc-large-cap-fund",
+      "citation_title": "",
+      "last_updated_from_sources": "2026-10-03",
+      "disclaimer": "Facts-only. No investment advice.",
+      "sentence_count": 2,
+      "guards_passed": [
+        "stage5:advice_refusal",
+        "refusal_template"
+      ]
+    },
+    {
+      "query": "My PAN is ABCDE1234F, what is the exit load?",
+      "intent_note": "PII in the query - must refuse and not echo the PAN",
+      "kind": "pii_refusal",
+      "answer": "I don't accept or store PAN, Aadhaar, folio or account numbers, OTPs, email addresses, phone numbers, or UPI/IFSC bank details, so please don't send them. For anything account-specific, use the AMC investor portal or your RTA's own request page.",
+      "citation": "https://www.hdfcmf.com/mutual-funds/equity/hdfc-large-cap-fund",
+      "citation_title": "",
+      "last_updated_from_sources": "2026-10-03",
+      "disclaimer": "Facts-only. No investment advice.",
+      "sentence_count": 2,
+      "guards_passed": [
+        "stage5:pii_refusal",
+        "refusal_template"
+      ]
+    }
+  ]
+}

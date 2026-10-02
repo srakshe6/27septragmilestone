@@ -1,0 +1,248 @@
+========================================================================================
+MF FAQ - CHUNKS AND EMBEDDINGS
+========================================================================================
+generated_at : 2026-09-28T19:04:42+00:00
+index        : C:\Users\USer\RAG\RAGproject\data\index\mf_faq.sqlite
+index_built  : 2026-09-28T19:04:01+00:00
+n_chunks     : 149
+dim          : 512  (hashed, IDF-weighted, L2-normalised)
+numpy        : True
+filters      : kind=- topic=- contains=ELSS limit=1
+shown        : 1 of 39 matching chunk(s)
+vector_mode  : non-zero dims only (top_n=24)
+
+COUNTS
+  by kind  : {'section': 1}
+  by topic : {'expense_ratio': 1}
+
+----------------------------------------------------------------------------------------
+CHUNK 1 / 1
+----------------------------------------------------------------------------------------
+  chunk_id     : groww-large-cap::sec::0018
+  doc_id       : groww-large-cap
+  source_id    : groww-large-cap
+  url          : https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+  kind         : section
+  topic        : expense_ratio
+  scheme_key   : large_cap
+  last_updated : 2026-09-28
+  answer_hint  : -
+  meta         : {"sentence_offset": 18}
+
+  text    : Exit Load 08 May 2015 Exit load of 1% if redeemed within 1 year 16 Feb
+      2015 Exit load of 1% if redeemed within 18 months 01 Jan 2013 Exit load of 1%
+      if redeemed within 1 year Exit load, stamp duty and tax Exit load Exit load of
+      1% if redeemed within 1 year Stamp duty on investment: 0.005% (from July 1st,
+      2020) from July 1st 2020 Tax implication If you redeem within one year,
+      returns are taxed at 20%. If you redeem after one year, returns exceeding Rs
+      1.25 lakh in a financial year are taxed at 12.5%. Check past data Compare
+      similar funds Name 1Y 3Y Fund Size(Cr) Invesco India Large Cap Fund Direct
+      Growth +2.51% +13.80% 2,020.76 Bandhan Large Cap Fund Direct Growth +0.05%
+      +12.47% 2,179.99 Nippon India Large Cap Fund Direct Growth -4.66% +10.75%
+      54,133.66 ICICI Prudential Large Cap Fund Direct Growth -5.15% +10.43%
+      80,206.20 HDFC Large Cap Fund Direct Growth -3.26% +8.71% 39,933.37 Compare
+      Fund management RB Rahul Baijal Jul 2022 - Present View details Education Mr.
+      Baijal has done PGDM(MBA) from IIM Calcutta and is an engineering graduate of
+      Delhi college of Engineering Experience Prior to joining HDFC Mutual Fund, he
+      has worked with Sundaram Mutual Fund, Bharti AXA Life Insurance, TVF Capital,
+      HSBC Securities, Credit Suisse Securities & Standard Chartered Bank. Also
+      manages these schemes HDFC Large Cap Fund Direct Growth HDFC Business Cycle
+      Fund Direct Growth HDFC Defence Fund Direct Growth DM Dhruv Muchhal Jun 2023 -
+      Present View details Education Mr. Dhruv has done B.Com, CA and CFA Experience
+      Prior to joining HDFC MF,he has worked with Motilal Oswal Financial Services
+      Ltd., Goldman Sachs, CRISIL Global Research & Analytics and Deloitte Haskins &
+      Sells Also manages these schemes HDFC Flexi Cap Direct Plan Growth HDFC Value
+      Fund Direct Plan Growth HDFC Ultra Short to Short Term Fund Direct Growth HDFC
+      Focused Fund Direct Growth HDFC Floating Interest Rates Fund Direct Plan
+      Growth HDFC Balanced Advantage Fund Direct Growth HDFC Dynamic Term Fund
+      Direct Plan Growth HDFC Medium Term Fund Direct Growth HDFC Medium to Long
+      Term Fund Direct Growth HDFC Infrastructure Fund Direct Growth HDFC Corporate
+      Bond Fund Direct Plan Growth HDFC Conservative Hybrid Fund Direct Growth HDFC
+      Mid Cap Fund Direct Growth HDFC Equity Savings Direct Plan Growth HDFC Multi
+      Asset Allocation Fund Direct Growth HDFC Aggressive Hybrid Fund Direct Plan
+      Growth HDFC Short Term Fund Direct Plan Growth HDFC ELSS Tax Saver Fund Direct
+      Plan Growth HDFC Large Cap Fund Direct Growth HDFC Credit Risk Fund Direct
+      Growth HDFC Banking and PSU Debt Fund Direct Growth HDFC Arbitrage Fund Direct
+      Growth HDFC Large & Mid Cap Fund Direct Growth HDFC Small Cap Fund Direct
+      Growth HDFC Ultra Short Term Fund Direct Growth HDFC Liquid Direct Plan Growth
+      HDFC Overnight Fund Direct Growth HDFC Money Market Fund Direct Growth HDFC
+      Housing Opportunities Fund Direct Growth HDFC Banking & Financial Services
+      Fund Direct Growth HDFC Multi Cap Fund Direct Growth HDFC Business Cycle Fund
+      Direct Growth HDFC Long Term Fund Direct Growth HDFC MNC Fund Direct Growth
+      HDFC Defence Fund Direct Growth HDFC Consumption Fund Direct Growth HDFC
+      Transportation and Logistics Fund Direct Growth HDFC Technology Fund Direct
+      Growth HDFC Pharma And Healthcare Fund Direct Growth HDFC Manufacturing Fund
+      Direct Growth HDFC Children's Fund Direct Plan HDFC Innovation Fund Direct
+      Growth About HDFC Large Cap Fund Direct Growth HDFC Large Cap Fund Direct
+      Growth is a Equity Mutual Fund Scheme launched by HDFC Mutual Fund.
+  tokens  (577):
+      exit load 08 may 2015 exit load of 1% if
+      redeemed within 1 year 16 feb 2015 exit load of
+      1% if redeemed within 18 months 01 jan 2013 exit
+      load of 1% if redeemed within 1 year exit load
+      stamp duty and tax exit load exit load of 1%
+      if redeemed within 1 year stamp duty on investment 0.005%
+      from july 1st 2020 from july 1st 2020 tax implication
+      if you redeem within one year returns are taxed at
+      20%. if you redeem after one year returns exceeding rs
+      1.25 lakh in a financial year are taxed at 12.5%.
+      check past data compare similar funds name 1y 3y fund
+      size cr invesco india large cap fund direct growth 2.51%
+      13.80% 2 020.76 bandhan large cap fund direct growth 0.05%
+      12.47% 2 179.99 nippon india large cap fund direct growth
+      4.66% 10.75% 54 133.66 icici prudential large cap fund direct
+      growth 5.15% 10.43% 80 206.20 hdfc large cap fund direct
+      growth 3.26% 8.71% 39 933.37 compare fund management rb rahul
+      baijal jul 2022 present view details education mr. baijal has
+      done pgdm mba from iim calcutta and is an engineering
+      graduate of delhi college of engineering experience prior to joining
+      hdfc mutual fund he has worked with sundaram mutual fund
+      bharti axa life insurance tvf capital hsbc securities credit suisse
+      securities standard chartered bank. also manages these schemes hdfc large
+      cap fund direct growth hdfc business cycle fund direct growth
+      hdfc defence fund direct growth dm dhruv muchhal jun 2023
+      present view details education mr. dhruv has done b.com ca
+      and cfa experience prior to joining hdfc mf he has
+      worked with motilal oswal financial services ltd. goldman sachs crisil
+      global research analytics and deloitte haskins sells also manages these
+      schemes hdfc flexi cap direct plan growth hdfc value fund
+      direct plan growth hdfc ultra short to short term fund
+      direct growth hdfc focused fund direct growth hdfc floating interest
+      rates fund direct plan growth hdfc balanced advantage fund direct
+      growth hdfc dynamic term fund direct plan growth hdfc medium
+      term fund direct growth hdfc medium to long term fund
+      direct growth hdfc infrastructure fund direct growth hdfc corporate bond
+      fund direct plan growth hdfc conservative hybrid fund direct growth
+      hdfc mid cap fund direct growth hdfc equity savings direct
+      plan growth hdfc multi asset allocation fund direct growth hdfc
+      aggressive hybrid fund direct plan growth hdfc short term fund
+      direct plan growth hdfc elss tax saver fund direct plan
+      growth hdfc large cap fund direct growth hdfc credit risk
+      fund direct growth hdfc banking and psu debt fund direct
+      growth hdfc arbitrage fund direct growth hdfc large mid cap
+      fund direct growth hdfc small cap fund direct growth hdfc
+      ultra short term fund direct growth hdfc liquid direct plan
+      growth hdfc overnight fund direct growth hdfc money market fund
+      direct growth hdfc housing opportunities fund direct growth hdfc banking
+      financial services fund direct growth hdfc multi cap fund direct
+      growth hdfc business cycle fund direct growth hdfc long term
+      fund direct growth hdfc mnc fund direct growth hdfc defence
+      fund direct growth hdfc consumption fund direct growth hdfc transportation
+      and logistics fund direct growth hdfc technology fund direct growth
+      hdfc pharma and healthcare fund direct growth hdfc manufacturing fund
+      direct growth hdfc children s fund direct plan hdfc innovation
+      fund direct growth about hdfc large cap fund direct growth
+      hdfc large cap fund direct growth is a equity mutual
+      fund scheme launched by hdfc mutual fund.
+
+  embedding  : dim=512 non_zero=401 l2_norm=1.000000 sum=-1.332263
+  top_dims   : [291]=-0.1545  [497]=-0.1435  [503]=-0.1341  [236]=+0.1192  [451]=-0.1169  [327]=-0.1073  [172]=+0.1063  [494]=+0.1052  [301]=-0.1009  [157]=-0.0997  [149]=-0.0988  [458]=+0.0964  [6]=+0.0956  [163]=-0.0950  [467]=-0.0930  [475]=-0.0928  [156]=+0.0915  [427]=-0.0909  [111]=-0.0900  [439]=-0.0897  [506]=+0.0873  [313]=-0.0870  [91]=-0.0866  [493]=-0.0865
+  dims (non-zero):
+      [  0]=+0.02007  [  3]=-0.01799  [  5]=-0.03894  [  6]=+0.09560
+      [  7]=-0.04130  [  8]=+0.02706  [  9]=-0.05072  [ 10]=+0.02445
+      [ 11]=-0.04172  [ 12]=+0.02810  [ 13]=-0.02664  [ 14]=+0.03081
+      [ 15]=-0.03774  [ 16]=+0.02728  [ 17]=-0.06425  [ 18]=+0.03214
+      [ 19]=-0.06186  [ 21]=-0.03106  [ 22]=+0.04601  [ 23]=-0.02728
+      [ 25]=-0.07392  [ 26]=+0.05434  [ 27]=-0.01834  [ 28]=+0.02966
+      [ 29]=-0.04325  [ 31]=-0.04495  [ 32]=+0.05428  [ 33]=-0.05699
+      [ 34]=+0.06366  [ 35]=-0.04912  [ 36]=+0.03586  [ 37]=-0.02184
+      [ 38]=+0.02060  [ 39]=-0.01675  [ 40]=+0.06407  [ 41]=-0.04986
+      [ 42]=+0.06038  [ 45]=-0.02184  [ 46]=+0.02954  [ 47]=-0.01074
+      [ 48]=+0.04243  [ 50]=+0.08105  [ 51]=-0.04165  [ 52]=+0.03961
+      [ 54]=+0.01914  [ 55]=-0.05268  [ 57]=-0.03586  [ 58]=+0.05194
+      [ 59]=-0.04420  [ 61]=-0.04568  [ 62]=+0.04292  [ 63]=-0.01703
+      [ 64]=+0.04084  [ 65]=-0.02314  [ 67]=-0.03171  [ 68]=+0.03240
+      [ 70]=+0.01850  [ 71]=-0.04317  [ 75]=-0.02118  [ 76]=+0.03316
+      [ 77]=-0.06820  [ 78]=+0.01733  [ 79]=-0.01834  [ 80]=+0.02309
+      [ 82]=+0.04130  [ 83]=-0.02884  [ 85]=-0.06961  [ 86]=+0.03796
+      [ 88]=+0.05510  [ 89]=-0.06103  [ 90]=+0.01551  [ 91]=-0.08664
+      [ 92]=+0.04628  [ 93]=-0.02728  [ 94]=+0.05905  [ 95]=-0.04944
+      [100]=+0.02118  [101]=-0.06127  [102]=+0.04264  [103]=-0.01188
+      [104]=+0.03398  [105]=-0.02258  [107]=-0.03294  [111]=-0.08999
+      [112]=+0.03171  [113]=-0.02258  [114]=+0.07012  [115]=-0.04788
+      [116]=+0.02232  [117]=-0.05299  [118]=+0.01074  [119]=-0.04461
+      [121]=-0.04072  [122]=+0.03647  [123]=-0.04125  [124]=+0.03953
+      [125]=-0.03240  [126]=+0.01551  [128]=+0.02343  [129]=-0.02983
+      [130]=+0.01573  [131]=-0.05745  [133]=-0.02060  [134]=+0.03214
+      [136]=+0.01364  [137]=-0.02717  [138]=+0.02954  [139]=-0.03074
+      [140]=+0.01144  [141]=-0.02631  [143]=-0.03487  [144]=+0.04691
+      [145]=-0.01468  [146]=+0.04960  [147]=-0.06054  [148]=+0.01675
+      [149]=-0.09875  [152]=+0.03456  [153]=-0.01834  [154]=+0.05140
+      [156]=+0.09149  [157]=-0.09965  [158]=+0.01733  [159]=-0.02183
+      [160]=+0.07023  [162]=+0.04623  [163]=-0.09500  [164]=+0.01133
+      [165]=-0.02118  [166]=+0.03355  [167]=-0.03171  [168]=+0.02184
+      [169]=-0.07933  [170]=+0.08129  [172]=+0.10635  [174]=+0.04557
+      [176]=+0.03272  [180]=+0.03398  [181]=-0.02118  [182]=+0.04702
+      [183]=-0.05188  [184]=+0.02118  [185]=-0.02954  [186]=+0.04797
+      [187]=-0.05233  [188]=+0.02060  [189]=-0.01834  [191]=-0.06713
+      [192]=+0.06551  [193]=-0.03874  [195]=-0.05072  [196]=+0.07418
+      [198]=+0.01290  [199]=-0.02184  [200]=+0.02343  [202]=+0.05331
+      [203]=-0.01958  [205]=-0.03905  [206]=+0.05072  [208]=+0.06130
+      [209]=-0.05704  [210]=+0.01799  [211]=-0.01037  [212]=+0.04800
+      [213]=-0.04114  [214]=+0.04056  [215]=-0.02184  [216]=+0.02060
+      [217]=-0.03586  [219]=-0.04874  [220]=+0.02988  [221]=-0.05004
+      [223]=-0.02118  [224]=+0.03240  [225]=-0.04605  [226]=+0.05815
+      [227]=-0.02343  [228]=+0.02792  [229]=-0.05163  [231]=-0.01958
+      [232]=+0.02007  [233]=-0.04025  [234]=+0.07714  [235]=-0.01799
+      [236]=+0.11920  [237]=-0.01224  [238]=+0.01799  [239]=-0.04777
+      [241]=-0.07993  [243]=-0.04291  [244]=+0.03316  [245]=-0.03831
+      [246]=+0.02060  [248]=+0.01834  [249]=-0.03487  [250]=+0.01873
+      [251]=-0.01333  [252]=+0.01733  [254]=+0.01123  [255]=-0.03748
+      [256]=+0.04527  [257]=-0.03568  [258]=+0.05017  [259]=-0.04092
+      [263]=-0.01873  [264]=+0.01290  [265]=-0.02728  [266]=+0.04891
+      [267]=-0.05324  [269]=-0.07376  [271]=-0.03466  [272]=+0.02007
+      [273]=-0.04818  [275]=-0.06886  [276]=+0.03316  [277]=-0.07860
+      [279]=-0.03316  [280]=+0.01958  [281]=-0.01647  [283]=-0.03589
+      [284]=+0.02975  [285]=-0.04718  [286]=+0.01675  [287]=-0.01262
+      [290]=+0.06269  [291]=-0.15451  [292]=+0.04119  [293]=-0.06812
+      [294]=+0.06315  [297]=-0.07282  [299]=-0.03586  [301]=-0.10091
+      [302]=+0.02283  [303]=-0.01799  [304]=+0.01974  [305]=-0.04916
+      [307]=-0.03568  [308]=+0.04461  [309]=-0.02343  [310]=+0.06454
+      [311]=-0.02007  [312]=+0.03841  [313]=-0.08700  [314]=+0.08050
+      [315]=-0.03966  [317]=-0.03734  [318]=+0.06318  [319]=-0.02258
+      [320]=+0.04302  [322]=+0.04861  [323]=-0.04752  [324]=+0.03183
+      [325]=-0.06201  [327]=-0.10729  [330]=+0.01333  [332]=+0.07474
+      [333]=-0.04826  [334]=+0.06826  [335]=-0.05506  [338]=+0.04505
+      [339]=-0.05728  [340]=+0.01765  [341]=-0.01799  [342]=+0.08304
+      [343]=-0.03870  [344]=+0.02884  [345]=-0.05966  [347]=-0.06259
+      [349]=-0.06225  [351]=-0.04261  [352]=+0.08052  [353]=-0.01834
+      [354]=+0.04292  [356]=+0.08094  [358]=+0.01914  [361]=-0.08334
+      [362]=+0.05049  [363]=-0.06474  [364]=+0.04493  [365]=-0.06089
+      [366]=+0.06968  [367]=-0.06320  [368]=+0.07015  [369]=-0.04419
+      [370]=+0.03948  [373]=-0.07773  [374]=+0.03318  [378]=+0.03796
+      [379]=-0.04634  [380]=+0.01873  [381]=-0.04861  [382]=+0.01468
+      [383]=-0.01488  [385]=-0.04482  [386]=+0.02007  [387]=-0.01834
+      [388]=+0.05013  [389]=-0.06746  [390]=+0.03959  [391]=-0.03240
+      [392]=+0.08558  [394]=+0.06938  [395]=-0.05573  [397]=-0.06202
+      [399]=-0.01508  [401]=-0.05502  [402]=+0.04397  [403]=-0.06302
+      [404]=+0.02232  [405]=-0.05629  [407]=-0.01396  [408]=+0.04023
+      [409]=-0.04030  [410]=+0.03712  [411]=-0.02060  [412]=+0.01468
+      [413]=-0.02728  [414]=+0.02569  [416]=+0.02183  [417]=-0.03045
+      [418]=+0.01622  [419]=-0.03863  [420]=+0.04108  [422]=+0.02184
+      [423]=-0.04876  [424]=+0.02118  [425]=-0.02569  [426]=+0.05821
+      [427]=-0.09089  [428]=+0.04172  [431]=-0.07609  [432]=+0.08609
+      [433]=-0.01488  [434]=+0.03316  [435]=-0.01551  [437]=-0.02728
+      [438]=+0.05799  [439]=-0.08975  [440]=+0.03561  [442]=+0.05224
+      [443]=-0.01958  [444]=+0.06240  [446]=+0.07464  [448]=+0.07446
+      [451]=-0.11687  [452]=+0.07303  [453]=-0.05516  [454]=+0.02569
+      [456]=+0.02736  [457]=-0.07904  [458]=+0.09636  [459]=-0.05328
+      [460]=+0.04377  [461]=-0.02736  [462]=+0.05862  [463]=-0.01380
+      [464]=+0.01551  [465]=-0.05630  [466]=+0.07005  [467]=-0.09295
+      [468]=+0.02569  [469]=-0.07819  [470]=+0.01834  [471]=-0.05831
+      [472]=+0.01873  [473]=-0.02184  [474]=+0.03961  [475]=-0.09281
+      [476]=+0.02931  [477]=-0.08313  [478]=+0.07230  [479]=-0.06985
+      [480]=+0.03707  [481]=-0.02258  [482]=+0.08624  [483]=-0.01290
+      [484]=+0.01733  [485]=-0.05346  [486]=+0.04072  [487]=-0.07103
+      [488]=+0.01914  [489]=-0.02094  [490]=+0.04582  [492]=+0.04777
+      [493]=-0.08648  [494]=+0.10521  [495]=-0.02835  [496]=+0.02343
+      [497]=-0.14353  [498]=+0.02118  [499]=-0.02118  [500]=+0.02007
+      [502]=+0.04619  [503]=-0.13411  [504]=+0.03965  [505]=-0.02007
+      [506]=+0.08731  [507]=-0.04186  [509]=-0.08642  [510]=+0.05314
+      [511]=-0.05935
+  nearest    : cos=+0.869  [section] groww-large-cap::sec::0021  Also manages these schemes HDFC Large Cap Fund Direct Growth HDF
+  nearest    : cos=+0.859  [section] groww-small-cap::sec::0018  If you redeem after one year, returns exceeding Rs 1.25 lakh in 
+  nearest    : cos=+0.856  [section] groww-flexi-cap::sec::0024  If you redeem after one year, returns exceeding Rs 1.25 lakh in 
+
+========================================================================================
+END - all chunks have a stored vector
+========================================================================================

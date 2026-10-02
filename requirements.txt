@@ -1,0 +1,26 @@
+# MF facts assistant - no required third-party packages.
+#
+# The whole pipeline runs on the Python standard library:
+#   urllib      -> fetching (STAGE 1)
+#   html.parser -> HTML -> text (STAGE 2)
+#   sqlite3     -> FTS5 BM25 index (STAGE 4)
+#   http.server -> the tiny web UI
+#   unittest    -> the test suite
+#
+# Verified on Python 3.14.7 (requires >= 3.11 for the syntax used).
+
+# --- optional -----------------------------------------------------------------
+# Accelerates the hashed dense-vector index. Pure-Python fallback is used when
+# absent; answers are identical either way.
+numpy>=1.24 ; python_version >= "3.11"
+
+# --- optional: PRD embedding model (D-1 seam) ----------------------------------
+# Two things happen when you opt in:
+#   1. install the dependencies below (they pull torch),
+#   2. set MF_FAQ_EMBED_MODEL=sentence-transformers/all-MiniLM-L6-v2 in .env,
+#   3. `python run.py build` to re-embed the corpus (384-dim, L2-normalised).
+#
+# `.env`'s default is `hashed` (zero dependencies). Omitting the model leaves the
+# hashed vectors in place; `python run.py build` refuses to silently mix planes.
+# sentence-transformers
+# torch

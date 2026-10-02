@@ -1,0 +1,9 @@
+# Never commit real keys.
+.env
+
+# Build outputs and caches. Regenerate with `python run.py build`.
+data/index/
+data/raw/
+
+__pycache__/
+*.py[cod]

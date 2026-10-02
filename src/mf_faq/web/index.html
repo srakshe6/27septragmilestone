@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<title>MF Facts Assistant (facts-only)</title>
+<style>
+{app_css}
+</style>
+</head>
+<body>
+<a class="skip" href="#q">Skip to the question box</a>
+
+<header class="top">
+  <div class="wrap top-in">
+    <h1>Mutual fund facts assistant <span class="badge">facts-only</span></h1>
+    <p class="mut">{welcome}</p>
+    <dl class="facts" id="scope"></dl>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="card">
+    <div class="mut card-h">Try one of these:</div>
+    <div id="examples">{examples}</div>
+  </div>
+
+  <div id="log" class="log" role="log" aria-live="polite" aria-relevant="additions text"></div>
+
+  <form id="f" autocomplete="off">
+    <label class="sr" for="q">Your question</label>
+    <textarea id="q" name="q" rows="1" placeholder="e.g. What is the minimum SIP for HDFC Small Cap Fund?" required></textarea>
+    <button type="submit">Ask</button>
+    <button type="button" id="clear" class="ghost" title="Clear the conversation">Clear</button>
+  </form>
+  <p class="hint">Enter to send &middot; Shift+Enter for a new line &middot; answers are generated locally from the fetched index</p>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>{disclaimer}</p>
+    <p class="mut">Never send PAN, Aadhaar, folio/account numbers, OTPs, emails, phone numbers, or UPI/IFSC bank details &mdash; they are refused before retrieval.</p>
+    <p class="mut" id="prov"></p>
+  </div>
+</footer>
+
+<script>
+const EXAMPLES={examples_json};
+{app_js}
+</script>
+</body>
+</html>

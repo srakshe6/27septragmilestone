@@ -1,0 +1,69 @@
+Facts-only. No investment advice.
+
+==============================================================================
+DISCLAIMER SNIPPET USED IN THE UI
+==============================================================================
+Source of truth: src/mf_faq/config.py  (DISCLAIMER, DISCLAIMER_LONG)
+Rendered by:    src/mf_faq/ui.py       (footer)
+Printed by:     src/mf_faq/guardrails.py (Answer.disclaimer, every response)
+
+------------------------------------------------------------------------------
+1. SHORT FORM  (appended to every single answer)
+------------------------------------------------------------------------------
+Facts-only. No investment advice.
+
+------------------------------------------------------------------------------
+2. LONG FORM  (UI footer)
+------------------------------------------------------------------------------
+Facts-only. No investment advice. Answers are sourced from the public pages
+listed below and are reproduced as of the stated date. This assistant does not
+recommend, compare or rate schemes, and does not compute returns. It also never
+asks for or stores PAN, Aadhaar, account/folio numbers, OTPs, email addresses
+or phone numbers.
+
+------------------------------------------------------------------------------
+3. WELCOME LINE  (shown above the example questions)
+------------------------------------------------------------------------------
+Hi! I answer factual questions about five HDFC Mutual Fund schemes - Large Cap,
+Flexi Cap, ELSS Tax Saver, Small Cap and Balanced Advantage. Every answer
+carries one source link. Facts-only. No investment advice.
+
+------------------------------------------------------------------------------
+4. EXAMPLE QUESTIONS SHOWN IN THE UI  (3, as required)
+------------------------------------------------------------------------------
+  a) What is the expense ratio of HDFC Large Cap Fund?
+  b) Is there a lock-in period in HDFC ELSS Tax Saver Fund?
+  c) How do I download a capital gains statement?
+
+------------------------------------------------------------------------------
+5. ADVICE REFUSAL  (verbatim, guardrails.py::REFUSAL_BODIES)
+------------------------------------------------------------------------------
+I can only share published facts about these schemes, so I can't say whether
+you should buy, sell or hold anything. The official scheme pages carry the
+factsheet, SID and KIM if you want to read the disclosures yourself.
+
+------------------------------------------------------------------------------
+6. PERFORMANCE REFUSAL  (verbatim, guardrails.py::REFUSAL_BODIES)
+------------------------------------------------------------------------------
+I don't compute or compare returns, and this assistant makes no performance
+claims. Returns and riskometer history are published in each scheme's monthly
+factsheet on the AMC's official pages.
+
+------------------------------------------------------------------------------
+7. PII REFUSAL  (verbatim, guardrails.py::REFUSAL_BODIES)
+------------------------------------------------------------------------------
+I don't accept or store PAN, Aadhaar, folio or account numbers, OTPs, email
+addresses, phone numbers, or UPI/IFSC bank details, so please don't send them.
+For anything account-specific, use the AMC investor portal or your RTA's own
+request page.
+
+------------------------------------------------------------------------------
+8. UNPARSED-QUERY REPLY  (verbatim, guardrails.py::REFUSAL_BODIES["empty"])
+------------------------------------------------------------------------------
+I didn't catch a question. Ask me about expense ratio, exit load, minimum SIP,
+ELSS lock-in, benchmark or how to download statements.
+
+------------------------------------------------------------------------------
+9. FRESHNESS LINE  (appended to every answer, guardrails.py)
+------------------------------------------------------------------------------
+Last updated from sources: <date on the source page>
